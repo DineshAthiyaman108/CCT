@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Marketplace</title>
+    <style>
+        * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  body {
+      background-color: #111;
+      color: #fff;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+      height: 10vh;
+  }
+
+  .logo img {
+      width: 150px;
+  }
+
+  nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+  }
+
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  nav ul li .sign-in {
+      background-color: #c00;
+      padding: 10px 20px;
+      border-radius: 5px;
+  }
+
+  .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 100px 20px;
+      min-height: 80vh;
+      background-image: url('path-to-your-bitcoin-chart-image');
+      background-size: cover;
+      background-position: center;
+  }
+
+  .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+  }
+
+  .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+  }
+
+  .hero button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      background-color: #c00;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+  }
+
+  .famous-coin {
+      min-height: 50vh;
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #222;
+  }
+
+  .famous-coin h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+
+  .coin-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .coin {
+      flex: 1 1 30%;
+  }
+
+  .coin img {
+      width: 100%;
+      border-radius: 10px;
+  }
+
+  .services {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #111;
+  }
+
+  .services h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+
+  .service-content {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .service-description,
+  .service-image {
+      padding: 20px;
+      width: 50%;
+  }
+
+  footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+  }
+
+  @media only screen and (max-width: 773px) {
+      .coin-gallery {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+      }
+      .coin {
+          width: 100%;
+          flex: 1 1 100%;
+      }
+      .coin img {
+          width: 100%;
+      }
+
+      .service-content {
+          flex-direction: column;
+      }
+      .service-description, .service-image {
+          width: 100%;
+      }
+  }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="path-to-your-logo-image" alt="CryptoSync Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/coin">Coin</a></li>
+            <li><a href="/mycoin">Mycoin</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="/login" class="sign-in">Sign In</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Largest Crypto Marketplace</h1>
+    <p>Welcome to the world's largest Crypto Currency Market. Choose the Coin for the Right Time to Buy</p>
+    <button>Choose Coin</button>
+</section>
+
+<section class="famous-coin">
+    <h2>Famous Coin</h2>
+    <div class="coin-gallery">
+        <div class="coin">
+            <img src="etherem.jpg" alt="Bitcoin">
+        </div>
+        <div class="coin">
+            <img src="etherem.jpg" alt="Binance Coin">
+        </div>
+        <div class="coin">
+            <img src="services.jpg" alt="Ethereum">
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <h2>Services</h2>
+    <div class="service-content">
+        <div class="service-description">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam id explicabo illum dolor, quis in veniam asperiores accusamus cupiditate dicta harum iste recusandae, sapiente, eligendi quod voluptatum? Voluptatibus, aspernatur optio.</p>
+        </div>
+        <div class="service-image">
+            <img src="images/etherem.jpg" alt="Service Image">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+</footer>
+</body>
+</html>
